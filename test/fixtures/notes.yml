@@ -2,48 +2,212 @@ note_1:
   user: user_1
   title: sendagaya.rb
   body: |-
-    [
-      {
-        "id_str": "1198188330703192066",
-        "text": "そういえばGitHub ActionsがmacOSでもCI回せるのってなんでなんだろう？ライセンスとか実行環境など気になる",
-        "user": {
-          "id_str": "1072823223190835201",
-          "screen_name": "s4na_penguin",
-          "name": "s4na / Nabetani そうだ！Rubyを書こう！"
-        }
-      },
-      {
-        "id_str": "1198172767029325825",
-        "text": "ここで id_str ってのが役にたつのか\n\nTwitter Gemのレスポンスに含まれてて、なんで？って思ってたけど、こういうことだったのか〜〜",
-        "user": {
-          "id_str": "1072823223190835201",
-          "screen_name": "s4na_penguin",
-          "name": "s4na / Nabetani そうだ！Rubyを書こう！"
-        }
-      }
-    ]
+    > [Sendagaya.rb #301に申し込みました! https://t.co/Tk0KZavhiP #sendagayarb @sendagayarbさんから](https://twitter.com/sanfrecce_osaka/status/1224119907685687296?ref_src=twsrc%5Etfw)
+
+    > [&gt; プログラミングスクールは大小含めると270校ほどある  すごい多い・・・  #sendagayarb](https://twitter.com/s4na_penguin/status/1224287517559492611?ref_src=twsrc%5Etfw)
+
+    > [Sendagaya.rb #302に申し込みました! https://t.co/FQtkE1k4Wo #sendagayarb @sendagayarbさんから](https://twitter.com/sanfrecce_osaka/status/1224558558345252865?ref_src=twsrc%5Etfw)
 
 note_2:
   user: user_1
   title: omotesando.rb
   body: |-
-    [
-      {
-        "id_str": "1198188330703192066",
-        "text": "そういえばGitHub ActionsがmacOSでもCI回せるのってなんでなんだろう？ライセンスとか実行環境など気になる",
-        "user": {
-          "id_str": "1072823223190835201",
-          "screen_name": "s4na_penguin",
-          "name": "s4na / Nabetani そうだ！Rubyを書こう！"
-        }
-      },
-      {
-        "id_str": "1198164810891808768",
-        "text": "Twitter IDをRubyとJS間で使っているけど下2桁が変わってる\n\nこれがいわゆる浮動小数点数の誤差ってやつかな？",
-        "user": {
-          "id_str": "1072823223190835201",
-          "screen_name": "s4na_penguin",
-          "name": "s4na / Nabetani そうだ！Rubyを書こう！"
-        }
-      }
-    ]
+    > [N + 1問題は気にするクセをつける Bulletで検出できるよ！ #omotesandorb](https://twitter.com/cs7700/status/1225382349640069121?ref_src=twsrc%5Etfw)
+
+    > [Hash#sliceは知らなかった👀 #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225382615051460609?ref_src=twsrc%5Etfw)
+
+    > [pluckはお気に入りのやつ！ #omotesandorb](https://twitter.com/suuuuengch/status/1225382667622834177?ref_src=twsrc%5Etfw)
+
+    > [この発表、プログラミングスクールの人にめちゃ役立ちそう #omotesandorb](https://twitter.com/yusuke_yasuo/status/1225382703459008512?ref_src=twsrc%5Etfw)
+
+    > [withoutメソッド便利〜〜知らなかった #omotesandorb](https://twitter.com/mtkasima/status/1225382724883533824?ref_src=twsrc%5Etfw)
+
+    > [「ヘルパに日付フォーマット処理がたくさんある。 N+1問題が放置されていることがある。検出するgemとかあるよ。 便利メソッドを使おう。  #omotesandorb](https://twitter.com/n_siena/status/1225382797654646784?ref_src=twsrc%5Etfw)
+
+    > [ruby-jp で全チャンネルにいるwww #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225383247191822337?ref_src=twsrc%5Etfw)
+
+    > [&gt; ruby-jpの全チャンネルにいる  #omotesandorb](https://twitter.com/s4na_penguin/status/1225383303445803008?ref_src=twsrc%5Etfw)
+
+    > ["ruby-jpの全チャンネルにいる" 仕事をしていない・・・？むしろruby-jpが仕事なのか・・・？ #omotesandorb](https://twitter.com/sinsoku_listy/status/1225383304687259649?ref_src=twsrc%5Etfw)
+
+    > [https://t.co/JRHtAPa12x #omotesandorb](https://twitter.com/s4na_penguin/status/1225383390381084672?ref_src=twsrc%5Etfw)
+
+    > [「Ruby-jpの全チャンネルにいます。」  仕事してないやつだ！   #omotesandorb](https://twitter.com/yuki3738/status/1225383456693092353?ref_src=twsrc%5Etfw)
+
+    > [machida.rb です https://t.co/J8yahCWqQZ  #omotesandorb](https://twitter.com/pink_bangbi/status/1225383475491962882?ref_src=twsrc%5Etfw)
+
+    > [インターフェース（概念）  #omotesandorb](https://twitter.com/pink_bangbi/status/1225383679607758848?ref_src=twsrc%5Etfw)
+
+    > [interfaceはいいぞ! #omotesandorb](https://twitter.com/kaiba/status/1225383745248608256?ref_src=twsrc%5Etfw)
+
+    > [副作用がないコードを書こう、みたいなネタを思いついた  #omotesandorb](https://twitter.com/pink_bangbi/status/1225383774285774849?ref_src=twsrc%5Etfw)
+
+    > [Rubyにはないやつだ！初めてRubyに触れた時なんでないんだろ？ってなった。#omotesandorb](https://twitter.com/ImpureSilver11/status/1225383862861103104?ref_src=twsrc%5Etfw)
+
+    > [メソッド名は責務、処理内容を表現する #omotesandorb](https://twitter.com/cs7700/status/1225383959099400192?ref_src=twsrc%5Etfw)
+
+    > [インスタンス変数が少ないほうがコードがきれいになるんじゃないかな、と思うようになっている  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384169305452544?ref_src=twsrc%5Etfw)
+
+    > [要はインスタンス変数って状態の情報なので、状態が多いと考えるべきことが多いけど、状態が少ないと考えることが少ないのでクリーンなコードになるよね、と  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384290722045954?ref_src=twsrc%5Etfw)
+
+    > [あとインスタンス変数を使う場合は必ず immutable にするべきかなーという持論  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384360146165760?ref_src=twsrc%5Etfw)
+
+    > [命名といえば Web+DB Pressの命名特集をすごい繰り返し読んでいる #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225384405729853440?ref_src=twsrc%5Etfw)
+
+    > [値を渡すときは引数をちゃんと指定する インスタンス変数を安易に使わない #omotesandorb](https://twitter.com/cs7700/status/1225384428714610689?ref_src=twsrc%5Etfw)
+
+    > [メソッドに切り出すの、大事  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384479323127810?ref_src=twsrc%5Etfw)
+
+    > [あ、名前付け無限に難しいやつだ！！！  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384588823822336?ref_src=twsrc%5Etfw)
+
+    > [あああ〜〜〜〜便利だと思って追加したメソッドが結局使われないやつだ〜  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384846857392128?ref_src=twsrc%5Etfw)
+
+    > [最初から汎用的に作らない！ 雑に作ればOK #omotesandorb](https://twitter.com/cs7700/status/1225384872333602816?ref_src=twsrc%5Etfw)
+
+    > [型がない言語だと、bool返したり、object返したり、例外投げたり、インタフェースがメチャクチャなコードを時々見る。 インタフェースを設計してないからだと思う。  そういうプログラミングアンチパターン本を書いたので技術書典で僕… https://t.co/WnPQI8fqNi](https://twitter.com/kaiba/status/1225384880579547137?ref_src=twsrc%5Etfw)
+
+    > [どこまで実装すべきかわからないっていうのは結局仕様が決まってないからなんだよなぁ。  #omotesandorb](https://twitter.com/pink_bangbi/status/1225384909809672194?ref_src=twsrc%5Etfw)
+
+    > [ブロックの引数はナンパラを使えばいいので…  #omotesandorb](https://twitter.com/pink_bangbi/status/1225385003464282113?ref_src=twsrc%5Etfw)
+
+    > [ボーイスカウトの理論はリーダブルコードか何かに載ってたような記憶 #omotesandorb](https://twitter.com/ImpureSilver11/status/1225385064709509121?ref_src=twsrc%5Etfw)
+
+    > [「インタフェースに気をつける。メソッドなら、名前や入力、出力など。責務に即した名前や、名前に適した入出力・挙動であるべき。 最初は雑に書いて、汎用的にしすぎない。 ボーイスカウトルールでコードの目に付いたあらを直していく。 SOLID原則を考慮する。  #omotesandorb](https://twitter.com/n_siena/status/1225385262814912514?ref_src=twsrc%5Etfw)
+
+    > [タイポミスでも本番でそのまま動いてなかなか直せない、なう絶賛それなので、どういうふうに直していけばええんやろなあ   #omotesandorb](https://twitter.com/yakumomutsuki/status/1225385326908018691?ref_src=twsrc%5Etfw)
+
+    > [ruby-style-guide rails-style-guide rspec-style-guide  #omotesandorb](https://twitter.com/cs7700/status/1225385380830175232?ref_src=twsrc%5Etfw)
+
+    > [https://t.co/YF009eUH3I #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225385386286833665?ref_src=twsrc%5Etfw)
+
+    > [コードコンプリートは初見だ 👀 #omotesandorb](https://twitter.com/mtkasima/status/1225385538393268227?ref_src=twsrc%5Etfw)
+
+    > [サンディメッツ本、ちょっと難しいけど良い本です https://t.co/ZqBlv30bGX #omotesandorb](https://twitter.com/kaiba/status/1225385682002042881?ref_src=twsrc%5Etfw)
+
+    > [オブジェクト指向設計原則、Rubyがサンプルコードなんだ  #omotesandorb](https://twitter.com/yakumomutsuki/status/1225385706953949184?ref_src=twsrc%5Etfw)
+
+    > [お、コミットログの話だ。みんな書こう！ #omotesandorb](https://twitter.com/sinsoku_listy/status/1225385814923694080?ref_src=twsrc%5Etfw)
+
+    > [男は黙って〜! git commit -am "修正" #omotesandorb](https://twitter.com/kaiba/status/1225385834469183488?ref_src=twsrc%5Etfw)
+
+    > [.oO(コードコンプリートは鈍器。二刀流で。  #omotesandorb](https://twitter.com/n_siena/status/1225385865553145857?ref_src=twsrc%5Etfw)
+
+    > [https://t.co/h89JpWeiIt #omotesandorb](https://twitter.com/s4na_penguin/status/1225386147741782016?ref_src=twsrc%5Etfw)
+
+    > [男は黙って〜! git commit -am "とりあえずコミット" #omotesandorb](https://twitter.com/kaiba/status/1225386148580642816?ref_src=twsrc%5Etfw)
+
+    > [Pull Request のdescriptionちゃんとかく、これは本当にそう #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225386154695938048?ref_src=twsrc%5Etfw)
+
+    > [ちゃんといっぱい書いてあるコミットログだ！ #omotesandorb](https://twitter.com/sinsoku_listy/status/1225386229425795072?ref_src=twsrc%5Etfw)
+
+    > [Code Complete Kindleで合本版がある  https://t.co/u0RtzjGDI6  #omotesandorb](https://twitter.com/motchang/status/1225386297130242049?ref_src=twsrc%5Etfw)
+
+    > [僕のコミットログもひどいので悔い改めたい #omotesandorb](https://twitter.com/kaiba/status/1225386416827293696?ref_src=twsrc%5Etfw)
+
+    > [この辺自分が見る側に回るとわかるところあるよね　#omotesandorb](https://twitter.com/ImpureSilver11/status/1225386472703848448?ref_src=twsrc%5Etfw)
+
+    > [https://t.co/KcLzu4Ddfo  #omotesandorb](https://twitter.com/pink_bangbi/status/1225386676534439937?ref_src=twsrc%5Etfw)
+
+    > [あ、いいなー　#omotesandorb](https://twitter.com/ImpureSilver11/status/1225386851680182273?ref_src=twsrc%5Etfw)
+
+    > [コミットメッセージ、原則としては全く知らない人に「このコミットは何？」って聞かれたときに自分がしそうな説明を一通りコミットメッセージに書いたら良いと思ってる。実際はコミット単位ではなくPR側に説明書くことが多いけど。  #omotesandorb](https://twitter.com/vividmuimui/status/1225387002188591104?ref_src=twsrc%5Etfw)
+
+    > [.oO(自作キーボード勢だ!  #omotesandorb](https://twitter.com/n_siena/status/1225387012594626560?ref_src=twsrc%5Etfw)
+
+    > ["ActiveRecordを拡張しよう"  重厚なテーマだ #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225387013064384512?ref_src=twsrc%5Etfw)
+
+    > [ActiveRecord拡張の話！ #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225387038595174403?ref_src=twsrc%5Etfw)
+
+    > [scalaのパターンマッチは割とかなり便利だけど、Ruby2.7のパターンマッチ遊んでみようかな #omotesandorb](https://twitter.com/_erikoyamauchi/status/1225387651248746497?ref_src=twsrc%5Etfw)
+
+    > [「ActiveRecordを拡張してパターンマッチできるようにする。ライブコーディング!  #omotesandorb](https://twitter.com/n_siena/status/1225387730466525184?ref_src=twsrc%5Etfw)
+
+    > [ナンパラが使われてる！ #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225387975262892033?ref_src=twsrc%5Etfw)
+
+    > [スッと numbered parameter 使うスタイルかっけえ #omotesandorb](https://twitter.com/purunkaoru/status/1225388278192295936?ref_src=twsrc%5Etfw)
+
+    > [21歳以上NGと聞くと胸が痛くなります #omotesandorb](https://twitter.com/kaiba/status/1225388318499622918?ref_src=twsrc%5Etfw)
+
+    > [Refinements便利！ #omotesandorb](https://twitter.com/sinsoku_listy/status/1225388367862329350?ref_src=twsrc%5Etfw)
+
+    > [Refinementを簡単に説明すると・・・？ #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225388479778942978?ref_src=twsrc%5Etfw)
+
+    > [refinement を簡単に説明....？？？ #omotesandorb](https://twitter.com/motchang/status/1225388514470088704?ref_src=twsrc%5Etfw)
+
+    > [rubyのrefineあとで読んでおくか #omotesandorb  https://t.co/Es1kdEYOes](https://twitter.com/cs7700/status/1225388846226870278?ref_src=twsrc%5Etfw)
+
+    > [Refinements悪くなかった！ #omotesandorb](https://twitter.com/mtkasima/status/1225389009032990723?ref_src=twsrc%5Etfw)
+
+    > [Refinementは悪くなかった！ さて原因は？ #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225389093049102336?ref_src=twsrc%5Etfw)
+
+    > [デバッグの方法の勉強になる #omotesandorb](https://twitter.com/yusuke_yasuo/status/1225389321219297280?ref_src=twsrc%5Etfw)
+
+    > [どこがCRubyで実装されているのだろう？🤔 #omotesandorb](https://twitter.com/s4na_penguin/status/1225389410742501376?ref_src=twsrc%5Etfw)
+
+    > [Print debugは最強 #omotesandorb](https://twitter.com/HolyGrail/status/1225389548697317379?ref_src=twsrc%5Etfw)
+
+    > [知らないメソッドいっぱいある #omotesandorb](https://twitter.com/yusuke_yasuo/status/1225390127641313280?ref_src=twsrc%5Etfw)
+
+    > [extended が何か悪さしてるのかな #omotesandorb](https://twitter.com/sinsoku_listy/status/1225390255517425664?ref_src=twsrc%5Etfw)
+
+    > [パワープレイすぎるwwwwwww #omotesandorb](https://twitter.com/mtkasima/status/1225390266661490688?ref_src=twsrc%5Etfw)
+
+    > [1個1個includeとかして調べた ﾋｴ~www #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225390309233704961?ref_src=twsrc%5Etfw)
+
+    > [respond_to? は ActiveRecordに定義してある! #omotesandorb](https://twitter.com/kaiba/status/1225390626973241346?ref_src=twsrc%5Etfw)
+
+    > [ActiveRecord::Attributesでrespond_to?がオーバーライドされている #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225390785027117057?ref_src=twsrc%5Etfw)
+
+    > [なるほど、respond_to? か #omotesandorb](https://twitter.com/sinsoku_listy/status/1225391025167798273?ref_src=twsrc%5Etfw)
+
+    > [オーバーライド合戦だ #omotesandorb](https://twitter.com/kaiba/status/1225391059124883456?ref_src=twsrc%5Etfw)
+
+    > [「numbered param. 、パターンマッチ、リファインメントべんり。本題はバグの調査。どこまで動いていて、どういうコードだと動かないのか、順を追って確認してく。例えば、メソッドの可視性や定義元、include/継承している… https://t.co/WR3AqPqjvX](https://twitter.com/n_siena/status/1225391115458600960?ref_src=twsrc%5Etfw)
+
+    > [上書き合戦、CSSっぽい #omotesandorb](https://twitter.com/motchang/status/1225391211302678528?ref_src=twsrc%5Etfw)
+
+    > [パターンマッチを使った右代入だ #omotesandorb](https://twitter.com/sinsoku_listy/status/1225391391934533639?ref_src=twsrc%5Etfw)
+
+    > [.oO(ActiveXxxx さん、いろいろとおせっかいがすぎる  #omotesandorb](https://twitter.com/n_siena/status/1225391482875416577?ref_src=twsrc%5Etfw)
+
+    > [respond_to?がActiveRecord内で上書きしてハマった経験あるなー。その時は自分もrespond_to?を上書きして解決したけど、それ以来ActiveRecordの中で悪さをするのは極力控えようとも思った。 #omotesandorb](https://twitter.com/Kirika_K2/status/1225391498813853698?ref_src=twsrc%5Etfw)
+
+    > [まずは最小構成のコードで確認してみる #omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225391926800572416?ref_src=twsrc%5Etfw)
+
+    > [そういえば、少し前に銀座Railsで話した資料を貼っておきます。個人的なコード書くときの原則は "短いコードは正義" です。 https://t.co/axbFBOrQ9X #omotesandorb](https://twitter.com/sinsoku_listy/status/1225392552125190145?ref_src=twsrc%5Etfw)
+
+    > [LT終了。懇親会。 .oO(間違ってLT枠で申し込んでしまってたぽい &gt;&lt;;  #omotesandorb](https://twitter.com/n_siena/status/1225392622618857474?ref_src=twsrc%5Etfw)
+
+    > [いつもご馳走様です😋 #omotesandorb https://t.co/Js33a97z1t](https://twitter.com/mtkasima/status/1225393466395332614?ref_src=twsrc%5Etfw)
+
+    > [寿司！ #omotesandorb https://t.co/r4ce7GlXJZ](https://twitter.com/yusuke_yasuo/status/1225393487970832384?ref_src=twsrc%5Etfw)
+
+    > [Sansanさんありがとうございます！🍣 #omotesandorb https://t.co/byn6WmgUgr](https://twitter.com/sinsoku_listy/status/1225393518777995264?ref_src=twsrc%5Etfw)
+
+    > [本番データをアレしてアレしてしまった罪を贖うためにここで退散　勉強になるLTありがとうございました！　#omotesandorb](https://twitter.com/wtrn8/status/1225393545864855554?ref_src=twsrc%5Etfw)
+
+    > [今日はシースー！　#omotesandorb https://t.co/ny9Q0le6GQ](https://twitter.com/sanfrecce_osaka/status/1225393706095693824?ref_src=twsrc%5Etfw)
+
+    > [sansanさんありがとうございます！！ #omotesandorb https://t.co/G63UQMR82M](https://twitter.com/s4na_penguin/status/1225393762810990592?ref_src=twsrc%5Etfw)
+
+    > [ただで寿司を食わせるわけにはいかん！！w #omotesandorb](https://twitter.com/kaiba/status/1225393930864406529?ref_src=twsrc%5Etfw)
+
+    > [さんさんさんありがとう #omotesandorb](https://twitter.com/pink_bangbi/status/1225394003308212225?ref_src=twsrc%5Etfw)
+
+    > [&gt; sansanは出会いからイノベーションを生み出す会社  &gt; イベントを開催することで、出会いも産み出そうとしている   #omotesandorb](https://twitter.com/s4na_penguin/status/1225394055070138370?ref_src=twsrc%5Etfw)
+
+    > [Sansanさん！いつもありがとうございます！！！！ #omotesandorb https://t.co/TA4CSX0XKP](https://twitter.com/HolyGrail/status/1225394083801157632?ref_src=twsrc%5Etfw)
+
+    > [SanSanさんいつもありがとー！　#omotesandorb](https://twitter.com/sanfrecce_osaka/status/1225394123076595712?ref_src=twsrc%5Etfw)
+
+    > [#omotesandorb sansan様ありがとうございます！ https://t.co/zxMlOQ1erz](https://twitter.com/kaiba/status/1225394238776463361?ref_src=twsrc%5Etfw)
+
+    > [1万円でのめる！ #omotesandorb](https://twitter.com/kaiba/status/1225394307923759104?ref_src=twsrc%5Etfw)
+
+    > [今回はやらかしてしまったので何か話さないといけないのでは……みたいな気持ちと、話す前に何か触らないと……みたいな気持ちと。 #omotesandorb](https://twitter.com/n_siena/status/1225422664178622464?ref_src=twsrc%5Etfw)
+
+    > [Sansanさん、いつもホスト提供ありがとうございます！ #omotesandorb](https://twitter.com/Kirika_K2/status/1225423121294905344?ref_src=twsrc%5Etfw)
+
+    > [しまった。おしょーさんとキーボードの話をするのを忘れてた。 #omotesandorb](https://twitter.com/Kirika_K2/status/1225426214157860864?ref_src=twsrc%5Etfw)
+
+    > [#index 2020/02/06 Thu 「Omotesando.rb #55 〜 コードの書き方 〜」&lt;https://t.co/02WxpNLdfI&gt; 参加中メモ &lt;https://t.co/ymYaA9gqcg&gt; #omotesandorb](https://twitter.com/n_siena/status/1225442030773403648?ref_src=twsrc%5Etfw)
