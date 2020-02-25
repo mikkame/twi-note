@@ -49,13 +49,28 @@ jobs:
         path: ${{ steps.yarn-cache.outputs.dir }}
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
 
+# add
+    - name: Yarn install
+      run: yarn --frozen-lockfile
 
-
-
+# old
+    # - name: Build and setup
+    #   run: |
+    #     bundle -j 4
+    #     bin/setup
+# new
     - name: Build and setup
       run: |
-        bundle -j 4
-        bin/setup
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        
+        bin/rails db:prepare
+        bin/rails db:setup
+        bin/rails log:clear tmp:clear
+        bin/rails restart
+
+
+
     - name: Install chrome
       run: |
         wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
