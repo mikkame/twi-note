@@ -17,6 +17,21 @@ jobs:
       image: ruby:2.6.5
     steps:
     - uses: actions/checkout@v2
+
+
+
+
+
+    - name: Setup cache key and directory for gems cache
+      uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-use-ruby-${{ hashFiles('**/Gemfile.lock') }}
+
+
+
+
+
     - name: Set up node and yarn
       run: |
         curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
