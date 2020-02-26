@@ -54,6 +54,10 @@ jobs:
       - name: Yarn install
         run: yarn --frozen-lockfile
 
+# sqlite3 確認
+      - name: test sqlite3
+        run: sqlite3 -version
+
       - name: Bundle install
         run: |
           # bundle config path vendor/bundle
