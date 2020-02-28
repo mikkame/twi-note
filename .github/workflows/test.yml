@@ -16,7 +16,6 @@ jobs:
           - 5432:5432
         # needed because the postgres container does not provide a healthcheck
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -25,8 +24,6 @@ jobs:
       - name: Install required apt packages
         run: |
           sudo apt -y install libpq-dev
-          
-          # add
           sudo apt -y install libsqlite3-dev
       - name: Setup cache key and directory for gems cache
         uses: actions/cache@v1
@@ -55,12 +52,8 @@ jobs:
       - name: Yarn install
         run: yarn --frozen-lockfile
       - name: Rails setup
-        # env: # Or as an environment variable
-        #   RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
-
         run: |
           bin/rails db:setup
-
       - name: Install chrome
         run: |
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -76,10 +69,10 @@ jobs:
           bin/yarn prettier-eslint --write 'app/**/*.js'
           bin/yarn prettier-eslint --write 'app/**/*.vue'
           bin/yarn prettier-eslint --write 'test/**/*.js'
-      - name: Yarn test
+      - name: Testing yarn
           bin/yarn jest --config ./jest.config.js
         run: |
-      - name: Rails test
+      - name: Testing rails
         run: |
           bundle exec rails test
           bundle exec rails test:system
