@@ -59,6 +59,7 @@ jobs:
       - name: Rails setup
         # env: # Or as an environment variable
         #   RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
+
         run: |
           # bundle exec rails db:setup
           
@@ -75,10 +76,10 @@ jobs:
 
       - name: Install chrome
         run: |
-          sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
-          sudo echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt update -y
-          sudo apt install -y google-chrome-stable
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
+          echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | tee /etc/apt/sources.list.d/google-chrome.list
+          apt update -y
+          apt install -y google-chrome-stable
       - name: Rubocop
         run: |
           bundle exec rubocop ./rubocop.yml --parallel
