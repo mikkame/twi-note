@@ -87,10 +87,10 @@ jobs:
           bin/yarn prettier-eslint --write 'app/**/*.js'
           bin/yarn prettier-eslint --write 'app/**/*.vue'
           bin/yarn prettier-eslint --write 'test/**/*.js'
-      - name: Yarn Test
+      - name: Yarn test
           bin/yarn jest
         run: |
-      - name: Rails Test
+      - name: Rails test
         run: |
           bundle exec rails test
           bundle exec rails test:system
