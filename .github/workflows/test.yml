@@ -51,6 +51,13 @@ jobs:
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+      - name: Install chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt update -y
+          sudo apt install -y google-chrome-stable
+
       - name: Bundle install
         run: |
           bundle config path vendor/bundle
@@ -60,24 +67,18 @@ jobs:
       - name: Rails setup
         run: |
           bin/rails db:setup
-      - name: Install chrome
-        run: |
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt update -y
-          sudo apt install -y google-chrome-stable
-      - name: Rubocop
+
+      - name: Check Lint
         run: |
           bundle exec rubocop ./rubocop.yml --parallel
-      - name: Lint
-        run: |
           bundle exec slim-lint app/views -c config/slim_lint.yml
           bin/yarn prettier-eslint --write 'app/**/*.js'
           bin/yarn prettier-eslint --write 'app/**/*.vue'
           bin/yarn prettier-eslint --write 'test/**/*.js'
+
       - name: Testing yarn
-          bin/yarn jest --config ./jest.config.js
         run: |
+          bin/yarn jest --config ./jest.config.js
       - name: Testing rails
         run: |
           bundle exec rails test
