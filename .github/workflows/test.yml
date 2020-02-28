@@ -6,7 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-# Similar to docker-compose.yml but not the same
     services:
       postgres:
         image: postgres:11.6-alpine
@@ -14,13 +13,12 @@ jobs:
           POSTGRES_PASSWORD: password
         ports:
           - 5432:5432
-        # needed because the postgres container does not provide a healthcheck
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Install Ruby version specified in `.ruby-version`
-        uses: eregon/use-ruby-action@master # this will use by default the .ruby-version file in your repository
+        uses: eregon/use-ruby-action@master
       - name: Install required apt packages
         run: |
           sudo apt -y install libpq-dev
