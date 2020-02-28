@@ -26,10 +26,10 @@ jobs:
         uses: eregon/use-ruby-action@master # this will use by default the .ruby-version file in your repository
       - name: Install required apt packages
         run: |
-          sudo apt-get -y install libpq-dev
+          sudo apt -y install libpq-dev
           
           # add
-          sudo apt-get -y install libsqlite3-dev
+          sudo apt -y install libsqlite3-dev
       - name: Setup cache key and directory for gems cache
         uses: actions/cache@v1
         with:
@@ -69,10 +69,10 @@ jobs:
 
       - name: Install chrome
         run: |
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
-          echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | tee /etc/apt/sources.list.d/google-chrome.list
-          apt update -y
-          apt install -y google-chrome-stable
+          sudo wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
+          sudo echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' | tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt update -y
+          sudo apt install -y google-chrome-stable
       - name: Rubocop
         run: |
           bundle exec rubocop ./rubocop.yml --parallel
