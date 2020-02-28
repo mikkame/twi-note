@@ -79,7 +79,7 @@ jobs:
       - name: Testing yarn
         run: |
           pwd
-          bin/yarn jest --config ./jest.config.js
+          yarn jest --config ./jest.config.js
       - name: Testing rails
         run: |
           bundle exec rails test
