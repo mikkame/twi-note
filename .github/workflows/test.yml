@@ -27,6 +27,9 @@ jobs:
       - name: Install required apt packages
         run: |
           sudo apt-get -y install libpq-dev
+          
+          # add
+          sudo apt-get -y install libsqlite3-dev
       - name: Setup cache key and directory for gems cache
         uses: actions/cache@v1
         with:
