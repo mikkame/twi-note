@@ -90,5 +90,5 @@ jobs:
       - name: Test
         run: |
           bundle exec rails test
-          yarn test
+          bin/yarn jest
           bundle exec rails test:system
