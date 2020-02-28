@@ -58,7 +58,6 @@ jobs:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
 
-
       - name: Bundle install
         run: |
           bundle config path vendor/bundle
