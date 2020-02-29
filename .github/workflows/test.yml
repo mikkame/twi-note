@@ -93,7 +93,8 @@ jobs:
           # ./bin/yarn jest --config ./jest.config.js
           # yarn jest --config ./jest.config.js
           # yarn jest --config ./jest.config.js
-          bin/yarn jest --config ./jest.config.js
+          # bin/yarn jest --config ./jest.config.js
+          bin/yarn jest
       - name: Test Rails
         run: |
           bundle exec rails test
