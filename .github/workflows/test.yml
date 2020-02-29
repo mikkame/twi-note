@@ -99,7 +99,7 @@ jobs:
           
           # WORK=`pwd`
           # $WORK/jest
-          bin/yarn jest
+          $WORK/yarn jest
       - name: Test Rails
         run: |
           bundle exec rails test
