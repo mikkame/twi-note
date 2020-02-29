@@ -81,7 +81,9 @@ jobs:
           bin/yarn prettier-eslint --write 'test/**/*.js'
       - name: Test Yarn
         run: |
+          # test
           pwd
+          
           yarn jest --config ./jest.config.js
       - name: Test Rails
         run: |
