@@ -97,8 +97,8 @@ jobs:
           # WORK = ‘pwd’
           # bin/yarn jest
           
-          WORK = ‘pwd’
-          WORK/jest
+          WORK=`pwd`
+          $WORK/jest
       - name: Test Rails
         run: |
           bundle exec rails test
