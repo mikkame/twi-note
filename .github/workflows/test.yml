@@ -97,7 +97,7 @@ jobs:
           # WORK = ‘pwd’
           # bin/yarn jest
           
-          # WORK=`pwd`
+          WORK=`pwd`
           # $WORK/jest
           $WORK/yarn jest
       - name: Test Rails
