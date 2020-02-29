@@ -82,7 +82,13 @@ jobs:
       - name: Test Yarn
         run: |
           # test
+          echo 'pwd'
           pwd
+          echo 'pwd ~'
+          pwd ~
+          echo 'pwd ./'
+          pwd ./
+
 
           # yarn jest --config ./jest.config.js
           # ./bin/yarn jest --config ./jest.config.js
