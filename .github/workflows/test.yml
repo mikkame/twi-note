@@ -81,25 +81,11 @@ jobs:
       - name: Test Yarn
         run: |
           # test
-          echo 'pwd'
-          pwd
-          echo 'pwd ~'
-          pwd ~
-          echo 'pwd ./'
-          pwd ./
 
 
-          # yarn jest --config ./jest.config.js
-          # ./bin/yarn jest --config ./jest.config.js
-          # yarn jest --config ./jest.config.js
-          # yarn jest --config ./jest.config.js
-          # bin/yarn jest --config ./jest.config.js
-          # WORK = ‘pwd’
-          # bin/yarn jest
-          
+
           WORK=`pwd`
-          # $WORK/jest
-          $WORK/bin/yarn jest
+          yarn jest --config $WORK/jest.config.js
       - name: Test Rails
         run: |
           bundle exec rails test
