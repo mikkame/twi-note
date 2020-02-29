@@ -83,8 +83,10 @@ jobs:
         run: |
           # test
           pwd
-          
-          yarn jest --config ./jest.config.js
+
+          # yarn jest --config ./jest.config.js
+          # ./bin/yarn jest --config ./jest.config.js
+          ./bin/yarn jest --config /home/runner/work/twi-note/twi-note/jest.config.js
       - name: Test Rails
         run: |
           bundle exec rails test
